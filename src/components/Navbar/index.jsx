@@ -1,5 +1,4 @@
 import React from "react";
-import { FaUserCircle } from "react-icons/fa";
 import styles from "./styles.module.css";
 
 const Navbar = () => {

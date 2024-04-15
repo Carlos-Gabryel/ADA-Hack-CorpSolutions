@@ -1,0 +1,31 @@
+.footer {
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.row {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #293645;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 24px;
+  color: #e2dede;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
