@@ -1,0 +1,157 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #225fa1;
+}
+
+.height {
+  height: 100%;
+}
+
+.frase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: normal;
+  padding: 0 2rem;
+}
+
+.frase h1 {
+  color: #fafbfc;
+  font-weight: normal;
+}
+
+.imagem {
+  display: flex;
+  background-color: #225fa1;
+  height: 100%;
+}
+
+.imagem img {
+  width: 300px;
+  position: relative;
+  top: -3px;
+  left: -80px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form {
+  border-radius: 12px 0 0 12px;
+  background-color: #ffffff;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  /* padding-top: 5rem; */
+}
+
+.widgets {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.titulo {
+  color: #225fa1;
+  font-size: 4rem;
+}
+
+.label {
+  display: flex;
+  color: #545b69;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 350px;
+}
+
+.label input {
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: "Kodchasan", sans-serif;
+  margin-top: 1rem;
+  background-color: #fafbfc;
+  max-width: 350px;
+  color: #545b69;
+}
+
+.label input {
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #225fa1;
+  color: #fafbfc;
+  border: none;
+  border-radius: 4px;
+  padding: 1rem;
+  width: 350px;
+  cursor: pointer;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 16px;
+}
+
+.sociais {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.sociais a {
+  cursor: pointer;
+}
+
+.form-login p {
+  display: none;
+  color: #545b69;
+  font-family: "Kodchasan", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .form {
+    background-color: #ffffff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border-radius: 0;
+    justify-content: space-between;
+  }
+
+  .form-login p {
+    display: block;
+    color: #545b69;
+    margin-bottom: 1rem;
+  }
+
+  .form-login h1 {
+    margin-bottom: 0;
+
+  }
+  .label {
+    margin-top: 1rem;
+  }
+
+  .sociais {
+    margin-top: 4rem;
+  }
+  .imagem {
+    display: none;
+  }
+}
