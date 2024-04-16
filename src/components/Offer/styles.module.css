@@ -1,11 +1,13 @@
 .container {
   background-color: #225fa1;
   color: #ffffff;
-  padding: 30px;
+  padding: 3rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 .offerBox {
@@ -32,3 +34,4 @@
   justify-content: space-between;
   align-items: center;
 }
+

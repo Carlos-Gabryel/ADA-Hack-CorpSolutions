@@ -1,0 +1,11 @@
+.font{
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}

@@ -13,15 +13,15 @@ const Goal = () => {
   ];
 
   return (
-    <div className={styles.container}>
-      <TitleText title="Metas" titleColor="#225FA1" className={styles.title} />
+    <div className={styles.container} id="goal"> 
+      <TitleText icone="&#x1F3AF;" title="Metas" titleColor="#225FA1" className={styles.title} />
       <Text
         text="Inovação impulsionada pela diversidade e inclusão."
         textColor="#0f0f0f"
         className={styles.text}
       />
       <div className={styles.content}>
-        <img src={image} alt="img" />
+        <img src={image} alt="Imagem de um homem sentado no chão" />
         <ul className={styles.goalList}>
           {goals.map((goal, index) => {
             const parts = goal.split(": ");
