@@ -17,3 +17,7 @@
   font-style: normal;
   color: #ffffff;
 }
+
+a.active{
+  font-weight: bold;
+}

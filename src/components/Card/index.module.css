@@ -1,0 +1,21 @@
+.card {
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  max-width: 650px;
+  height: 270px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #545454;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
