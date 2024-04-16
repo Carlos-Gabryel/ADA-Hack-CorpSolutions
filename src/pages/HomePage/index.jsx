@@ -5,7 +5,6 @@ import { About } from "../../components/About";
 import { Goal } from "../../components/Goal";
 import { Offer } from "../../components/Offer";
 import { Footer } from "../../components/Footer";
-import { ApplyForm } from "../../components/ApplyForm";
 
 const HomePage = () => {
   return (
@@ -16,7 +15,6 @@ const HomePage = () => {
       <Goal />
       <Offer />
       <Footer />
-      <ApplyForm />
     </div>
   );
 };
