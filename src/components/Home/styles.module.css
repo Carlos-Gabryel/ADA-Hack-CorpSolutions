@@ -1,0 +1,38 @@
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafbfc;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-right: 100px;
+}
+
+.image {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.textContainer {
+  width: 600px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 50px;
+  margin-right: calc(50vw - 91px);
+}
