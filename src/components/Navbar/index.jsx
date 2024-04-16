@@ -1,7 +1,16 @@
 import React from "react";
 import styles from "./styles.module.css";
+import { Widgets } from "../Widgets/Widgets";
+import { Link } from "react-scroll";
 
-const Navbar = () => {
+const Navbar = ({ scrollToAbout }) => {
+  const handleScrollToAbout = () => {
+    scroll.scrollTo({
+      id: "about", // Replace with the actual ID of your About section
+      duration: 500, // Adjust scroll duration (milliseconds)
+      smooth: true,
+    });
+  };
   return (
     <div className={styles.navbar}>
       <ul className={styles["nav-links"]}>
@@ -9,12 +18,23 @@ const Navbar = () => {
           <a href="#">Início</a>
         </li>
         <li>
-          <a href="#">Sobre</a>
+          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+            Sobre
+          </Link>
         </li>
         <li>
-          <a href="#">Vagas Abertas</a>
+          <Link to="goal" spy={true} smooth={true} offset={50} duration={500}>
+            Metas
+          </Link>
+        </li>
+        <li>
+          <Link to="offer" spy={true} smooth={true} offset={50} duration={500}>
+            Vagas Abertas
+          </Link>
         </li>
       </ul>
+
+      <Widgets login={true} />
     </div>
   );
 };

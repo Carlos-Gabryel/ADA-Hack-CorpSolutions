@@ -1,10 +1,10 @@
 import styles from "./styles.module.css";
 import PropTypes from "prop-types";
 
-const TitleText = ({ title, titleColor }) => {
+const TitleText = ({ title, titleColor, icone = null}) => {
   return (
     <p style={{ color: titleColor }} className={styles.title}>
-      {title}
+      {icone? <span>{icone}</span> : ''}{title}
     </p>
   );
 };

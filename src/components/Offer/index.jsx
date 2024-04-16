@@ -12,8 +12,8 @@ const Offer = () => {
   ];
 
   return (
-    <div className={styles.container}>
-      <TitleText title="Vagas Abertas" className={styles.title} />
+    <div className={styles.container} id="offer">
+      <TitleText icone="&#x1F4BC;" title="Vagas Abertas" className={styles.title} />
       <Text text="Venha fazer parte do nosso time!" className={styles.text} />
       <div className={styles.offerBox}>
         {vagas.map((vaga, index) => (
