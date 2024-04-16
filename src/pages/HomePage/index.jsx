@@ -6,6 +6,7 @@ import { Goal } from "../../components/Goal";
 import { Offer } from "../../components/Offer";
 import { Footer } from "../../components/Footer";
 
+
 const HomePage = () => {
   return (
     <div className={styles.container}>
