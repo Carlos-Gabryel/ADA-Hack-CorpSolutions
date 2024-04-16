@@ -5,11 +5,15 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.imageContainer}>
-        <img src={image} alt="Imagem de pessoas uma ao lado da outra" className={styles.image} />
+        <img
+          src={image}
+          alt="Imagem de pessoas uma ao lado da outra"
+          className={styles.image}
+        />
         <div className={styles.row}>Copyright © 2024</div>
       </div>
     </div>
   );
 };
 
-export default Footer;
+export { Footer };

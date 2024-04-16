@@ -1,0 +1,148 @@
+{
+    "pessoas": [
+      {
+        "dados_pessoais": {
+          "nome_completo": "João Silva",
+          "idade": 30,
+          "genero": "Masculino",
+          "etnia": "Branco",
+          "orientacao_sexual": "Heterossexual"
+        },
+        "contato": {
+          "telefone": "+55 11 91234-5678",
+          "email": "joao.silva@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Maria Oliveira",
+          "idade": 25,
+          "genero": "Feminino",
+          "etnia": "Parda",
+          "orientacao_sexual": "Heterossexual"
+        },
+        "contato": {
+          "telefone": "+55 21 98765-4321",
+          "email": "maria.oliveira@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Pedro Santos",
+          "idade": 40,
+          "genero": "Masculino",
+          "etnia": "Negro",
+          "orientacao_sexual": "Homossexual"
+        },
+        "contato": {
+          "telefone": "+55 31 87654-3210",
+          "email": "pedro.santos@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Ana Souza",
+          "idade": 35,
+          "genero": "Feminino",
+          "etnia": "Branco",
+          "orientacao_sexual": "Bissexual"
+        },
+        "contato": {
+          "telefone": "+55 41 76543-2109",
+          "email": "ana.souza@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Lucas Ferreira",
+          "idade": 28,
+          "genero": "Masculino",
+          "etnia": "Parda",
+          "orientacao_sexual": "Heterossexual"
+        },
+        "contato": {
+          "telefone": "+55 51 65432-1098",
+          "email": "lucas.ferreira@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Carla Mendes",
+          "idade": 33,
+          "genero": "Feminino",
+          "etnia": "Negro",
+          "orientacao_sexual": "Heterossexual"
+        },
+        "contato": {
+          "telefone": "+55 61 54321-0987",
+          "email": "carla.mendes@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Gabriel Almeida",
+          "idade": 22,
+          "genero": "Masculino",
+          "etnia": "Branco",
+          "orientacao_sexual": "Heterossexual"
+        },
+        "contato": {
+          "telefone": "+55 71 43210-9876",
+          "email": "gabriel.almeida@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Juliana Costa",
+          "idade": 38,
+          "genero": "Feminino",
+          "etnia": "Parda",
+          "orientacao_sexual": "Homossexual"
+        },
+        "contato": {
+          "telefone": "+55 81 32109-8765",
+          "email": "juliana.costa@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Rafaela Silva",
+          "idade": 27,
+          "genero": "Feminino",
+          "etnia": "Negro",
+          "orientacao_sexual": "Heterossexual"
+        },
+        "contato": {
+          "telefone": "+55 91 21098-7654",
+          "email": "rafaela.silva@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Fernando Oliveira",
+          "idade": 45,
+          "genero": "Masculino",
+          "etnia": "Branco",
+          "orientacao_sexual": "Heterossexual"
+        },
+        "contato": {
+          "telefone": "+55 12 10987-6543",
+          "email": "fernando.oliveira@example.com"
+        }
+      },
+      {
+        "dados_pessoais": {
+          "nome_completo": "Amanda Santos",
+          "idade": 29,
+          "genero": "Feminino",
+          "etnia": "Parda",
+          "orientacao_sexual": "Bissexual"
+        },
+        "contato": {
+          "telefone": "+55 22 09876-5432",
+          "email": "amanda.santos@example.com"
+        }
+      }
+    ]
+  }
+  
