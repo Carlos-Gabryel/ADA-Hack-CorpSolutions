@@ -26,7 +26,9 @@ function Login() {
             <div className={styles.widgets}>
               <Widgets />
             </div>
-            <div className={styles["form-login"]}>
+            
+          </div>
+          <div className={styles["form-login"]}>
               <h1 className={clsx("titan-one-regular", styles.titulo)}>
                 Corp <br />
                 Solutions
@@ -42,7 +44,6 @@ function Login() {
                 <button className={styles.button} onClick={handleClick}>Entrar</button>
               </form>
             </div>
-          </div>
           <div className={styles.sociais}>
             <a href=""><img src="/x.svg" alt="Logo do X" /></a>
             <a href=""> <img src="/instagram.svg" alt="Logo do Instagram" /></a>
