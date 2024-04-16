@@ -5,6 +5,10 @@ import { MenuHamburguer } from "../../components/DropDownMenu/MenuHamburguer.jsx
 import { Menu } from "../../components/Menu/Menu.jsx";
 import { Card } from "../../components/Card/Card.jsx";
 import { Widgets } from "../../components/Widgets/Widgets.jsx";
+import { Chart } from "react-google-charts";
+import { useEffect, useState } from "react";
+import { chartGender } from "../../components/Charts/chartGender.jsx";
+import { chartOrientation } from "../../components/Charts/chartOrientation.jsx";
 
 function Painel() {
   return (
