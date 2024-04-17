@@ -5,6 +5,14 @@ import { MenuHamburguer } from "../../components/DropDownMenu/MenuHamburguer.jsx
 import { Menu } from "../../components/Menu/Menu.jsx";
 import { Card } from "../../components/Card/Card.jsx";
 import { Widgets } from "../../components/Widgets/Widgets.jsx";
+import { Gender } from "../../components/Charts/chartGender.jsx";
+import { Race } from "../../components/Charts/chartRace.jsx";
+import { Age } from "../../components/Charts/chartAge.jsx";
+import { Locality } from "../../components/Charts/chartLocality.jsx";
+import { Etnia } from "../../components/Charts/chartEtnia.jsx";
+import { Orientation } from "../../components/Charts/chartOrientacao.jsx";
+import { Total } from "../../components/Charts/chartTotal.jsx";
+import { Pcd } from "../../components/Charts/chartPcd.jsx";
 
 function Painel() {
   return (
@@ -25,12 +33,14 @@ function Painel() {
           </div>
           <h1 className={clsx(styles.title, "titan-one-regular")}>Painel</h1>
           <div className={styles.dashboard}>
-            <Card title="Total de Candidatos"></Card>
-            <Card title="Etnias"></Card>
-            <Card title="Gênero"></Card>
-            <Card title="Localidades"></Card>
-            <Card title="Faixa Etária"></Card>
-            <Card title="Escolaridade"></Card>
+            <Card title="Total de Candidatos"><Total/></Card>
+            <Card title="Orientação Sexual"><Orientation/></Card>
+            <Card title="Etnias"><Etnia/></Card>
+            <Card title="Gênero"><Gender/></Card>
+            <Card title="Localidades"><Locality/></Card>
+            <Card title="Faixa Etária"><Age/></Card>
+            <Card title="Pcd's"><Pcd/></Card>
+      
           </div>
         </div>
       </section>

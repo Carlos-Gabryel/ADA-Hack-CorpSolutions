@@ -7,7 +7,6 @@ function ApplyForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(formRef.current);
-    console.log(formData);
     alert("Form submitted successfully!");
     formRef.current.reset();
   };
