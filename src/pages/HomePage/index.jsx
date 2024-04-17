@@ -5,6 +5,7 @@ import { About } from "../../components/About";
 import { Goal } from "../../components/Goal";
 import { Offer } from "../../components/Offer";
 import { Footer } from "../../components/Footer";
+import vagas from "../../db/vagas.json";
 
 const HomePage = () => {
   return (
@@ -13,7 +14,7 @@ const HomePage = () => {
       <Home />
       <About />
       <Goal />
-      <Offer />
+      <Offer vaga={vagas}/>
       <Footer />
     </div>
   );
