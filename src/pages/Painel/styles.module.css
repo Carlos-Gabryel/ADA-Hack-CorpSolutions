@@ -43,7 +43,7 @@
 
 .dashboard {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 
@@ -53,3 +53,23 @@
     gap: 1rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+
+
+
