@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Chart } from 'react-google-charts';
-import lista from '../../db/lista.json';
-import { useGetList } from '../../hooks/use-get-list';
+import React, { useState, useEffect } from "react";
+import { Chart } from "react-google-charts";
+// import lista from '../../db/lista.json';
+import { useGetList } from "../../hooks/use-get-list";
 
 export const Locality = () => {
   const { data } = useGetList();
@@ -17,7 +17,7 @@ export const Locality = () => {
     });
 
     // Formato de dados para o gráfico de barras
-    const chartData = [['Estado', 'Quantidade']];
+    const chartData = [["Estado", "Quantidade"]];
     for (const [city, count] of Object.entries(cityCounts)) {
       chartData.push([city, count]);
     }
@@ -29,17 +29,17 @@ export const Locality = () => {
     <div>
       {data && (
         <Chart
-          width={'100%'}
-          height={'400px'}
+          width={"100%"}
+          height={"400px"}
           chartType="Bar"
           loader={<div>Loading Chart</div>}
           data={createCityBarChart()}
           options={{
-            legend: { position: 'none' },
-            hAxis: { title: 'Quantidade' },
-            vAxis: { title: 'Estado' },
-            backgroundColor: 'transparent',
-            colors: ['#7D3C98'],
+            legend: { position: "none" },
+            hAxis: { title: "Quantidade" },
+            vAxis: { title: "Estado" },
+            backgroundColor: "transparent",
+            colors: ["#7D3C98"],
           }}
         />
       )}
