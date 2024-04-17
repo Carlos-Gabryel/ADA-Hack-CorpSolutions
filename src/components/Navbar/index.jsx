@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 const Navbar = ({ scrollToAbout }) => {
   const handleScrollToAbout = () => {
     scroll.scrollTo({
-      id: "about", // Replace with the actual ID of your About section
-      duration: 500, // Adjust scroll duration (milliseconds)
+      id: "about",
+      duration: 500,
       smooth: true,
     });
   };

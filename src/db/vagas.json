@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "nome": "Front End",
+        "experiencia": "2+ anos",
+        "escolaridade": "Superior Incompleto",
+        "descricao": "A área de “Desenvolvimento” é responsável pelo desenvolvimento de softwares de gestão incríveis. Seus principais objetivos são desenvolver soluções que geram resultado para nossos clientes, com velocidade, qualidade e facilidade de uso. Como Desenvolvedor Front-end você terá a responsabilidade de desenvolver soluções para aperfeiçoar a interface de nossos softwares e otimizar a experiência de uso dos nossos clientes utilizando Javascript, CSS, HTML e jQuery, e conseguirá enxergar os resultados do seu trabalho na prática."
+    },
+    {
+        "id": "2",
+        "nome": "Back End",
+        "experiencia": "2+ anos",
+        "escolaridade": "Superior Incompleto",
+        "descricao": "Estamos em busca de um desenvolvedor back end qualificado para se juntar à nossa equipe. O candidato ideal terá experiência sólida em desenvolvimento de software, com foco em arquitetura e implementação de sistemas robustos e escaláveis. Será responsável por colaborar com a equipe de desenvolvimento para criar soluções eficientes e otimizadas, garantindo alta performance e segurança nos produtos da empresa."
+    },
+    {
+        "id": "3",
+        "nome": "DevOps",
+        "experiencia": "2+ anos",
+        "escolaridade": "Superior Incompleto",
+        "descricao": "Estamos à procura de um Engenheiro DevOps talentoso e motivado para se juntar à nossa equipe de operações de tecnologia. O candidato ideal será apaixonado por automação, otimização e implementação de práticas ágeis para garantir a entrega contínua e confiável de software. Sua função será crucial na integração de desenvolvimento e operações, garantindo eficiência e estabilidade em todo o ciclo de vida do produto."
+    },
+    {
+        "id": "4",
+        "nome": "Data Science",
+        "experiencia": "2+ anos",
+        "escolaridade": "Superior Incompleto",
+        "descricao": "Junte-se a uma equipe inovadora como Cientista de Dados e contribua diretamente para o crescimento e sucesso da empresa. Estamos buscando um profissional apaixonado por desvendar os segredos dos dados, habilidoso em análise estatística e machine learning. Sua expertise será fundamental na geração de insights estratégicos e na condução de decisões, impactando positivamente o desenvolvimento de produtos e o direcionamento estratégico da organização."
+    }
+]
