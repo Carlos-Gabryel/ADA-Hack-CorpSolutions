@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.css";
 import vagas from "../../db/vagas.json";
 import { ApplyForm } from "../../components/ApplyForm";

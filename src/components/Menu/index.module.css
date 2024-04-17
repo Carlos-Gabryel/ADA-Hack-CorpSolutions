@@ -59,6 +59,7 @@
   font-weight: 700;
   font-style: normal;
   transition: 0.1s ease-out;
+  cursor: pointer;
 }
 
 .menu-username span {

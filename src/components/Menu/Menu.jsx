@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "./index.module.css";
 import clsx from "clsx";
 
@@ -17,16 +17,16 @@ function Menu({ name, occupation }) {
                 <NavLink to="/painel">Meu Espaço</NavLink>
               </li>
               <li>
-                <NavLink to="/">Quadro de Candidatos</NavLink>
+                <Link >Quadro de Candidatos</Link>
               </li>
               <li>
-                <NavLink to="/">Quadro de Colaboradores</NavLink>
+                <Link>Quadro de Colaboradores</Link>
               </li>
               <li>
-                <NavLink to="/">Vagas Disponíveis</NavLink>
+                <Link>Vagas Disponíveis</Link>
               </li>
               <li>
-                <NavLink to="/">Banco de Talentos</NavLink>
+                <Link>Banco de Talentos</Link>
               </li>
               <li>
                 <NavLink to="/login">Sair</NavLink>
