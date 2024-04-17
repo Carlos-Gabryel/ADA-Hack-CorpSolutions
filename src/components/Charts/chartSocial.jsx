@@ -1,22 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Chart } from 'react-google-charts';
+import { useGetList } from '../../hooks/use-get-list';
 
 export const Social = () => {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('https://corpsolutions.free.beeceptor.com/listacandidatos');
-        const jsonData = await response.json();
-        setData(jsonData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    };
-
-    fetchData();
-  }, []);
+  const { data } = useGetList();
 
   return (
     <div>
