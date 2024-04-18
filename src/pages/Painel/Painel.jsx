@@ -36,7 +36,6 @@ function Painel() {
             <ErrorBoundary
               fallback={<div>Algo deu Errado, Tente novamente.</div>}
             >
-              ;
               <Card title="Total de Candidatos">
                 <Total />
               </Card>
